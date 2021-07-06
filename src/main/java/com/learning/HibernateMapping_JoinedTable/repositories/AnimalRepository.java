@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.learning.HibernateMapping_JoinedTable.entities.Animal;
 
 @RestController
-public interface AnimalRepository extends CrudRepository<Animal, Integer>{
+public interface AnimalRepository extends CrudRepository<Animal, Long>{
 
 	List<Animal> findAll();
 	

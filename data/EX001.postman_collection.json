@@ -44,6 +44,26 @@
 			"response": []
 		},
 		{
+			"name": "pet 2 fish",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/pet/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"pet",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "animal",
 			"request": {
 				"method": "POST",

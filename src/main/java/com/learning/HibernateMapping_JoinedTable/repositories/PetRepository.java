@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.learning.HibernateMapping_JoinedTable.entities.Pet;
 
 @RestController
-public interface PetRepository extends CrudRepository<Pet, Integer>{
+public interface PetRepository extends CrudRepository<Pet, Long>{
 
 	List<Pet> findAll();
 	

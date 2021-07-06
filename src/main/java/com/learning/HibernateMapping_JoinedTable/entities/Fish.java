@@ -17,11 +17,11 @@ public class Fish extends Pet {
 		this.fishName = fishName;
 	}
 
-	public String getName() {
+	public String getFishName() {
 		return fishName;
 	}
 
-	public void setName(String fishName) {
+	public void setFishName(String fishName) {
 		this.fishName = fishName;
 	}
 
